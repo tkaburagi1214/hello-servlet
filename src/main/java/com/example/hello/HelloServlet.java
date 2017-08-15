@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		res.setContentType("text/plain;charset=utf-8");
 		PrintWriter pw = res.getWriter();
-		pw.println("\n" +
+		pw.print("\n" +
 				"██╗     █████╗ ███╗   ███╗    ███████╗████████╗██╗██╗     ██╗          █████╗ ████████╗    ██╗    ██╗ █████╗ ██████╗ \n" +
 				"██║    ██╔══██╗████╗ ████║    ██╔════╝╚══██╔══╝██║██║     ██║         ██╔══██╗╚══██╔══╝    ██║    ██║██╔══██╗██╔══██╗\n" +
 				"██║    ███████║██╔████╔██║    ███████╗   ██║   ██║██║     ██║         ███████║   ██║       ██║ █╗ ██║███████║██████╔╝\n" +
